@@ -1,0 +1,57 @@
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/*.apk
+android/*.ap_
+android/*.aab
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+
+# Backend
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.env
+backend/venv/
+backend/.venv/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets (IMPORTANT!)
+*.key
+*.pem
+*.p12
+google-services.json
+app.config.json
+
+# Docker
+docker/volumes/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
