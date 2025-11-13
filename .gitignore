@@ -40,6 +40,8 @@ Thumbs.db
 
 # Logs
 *.log
+logs/
+backend/logs/
 
 # Secrets (IMPORTANT!)
 *.key
